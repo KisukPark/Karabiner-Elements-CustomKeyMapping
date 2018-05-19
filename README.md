@@ -26,14 +26,18 @@ For convenience, map caps_lock to left_ctrl. So you can initiate the following k
 - `left_ctrl + k` to `↓`  
 - `left_ctrl + l` to `→`
 
-#### 4. Change `left_ctrl + n/o` to `home/end`
+#### 4. Change `left_ctrl + left_option + j/l` to move cursor by word left/right.
+- `left_ctrl + left_option + j` to `left_option + ←`  
+- `left_ctrl + left_option + l` to `left_option + →`
+
+#### 5. Change `left_ctrl + n/o` to `home/end`
 - `left_ctrl + n` to `home`  
 - `left_ctrl + o` to `end`
 
-#### 5. Change `left_ctrl + h/;` to `backspace/delete`
+#### 6. Change `left_ctrl + h/;` to `backspace/delete`
 - `left_ctrl + h` to `backspace`
 - `left_ctrl + ;` to `delete`
 
-#### 6. Change `left_ctrl + d/u` to `page_down/page_up`
+#### 7. Change `left_ctrl + d/u` to `page_down/page_up`
 - `left_ctrl + d` to `page_down`  
 - `left_ctrl + u` to `page_up`
