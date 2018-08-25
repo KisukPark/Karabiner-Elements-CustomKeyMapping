@@ -12,9 +12,17 @@ After you install Karabiner-Elements, override `~/.config/karabiner/karabiner.js
 ## Key mappings
 
 #### 1. Change `right_command/right_option` to `left_command + spacebar`
-This is for changing keyboard language with only right_command or right_option.  
-- `right_command` to `left_command + spacebar`  
-- `right_option` to `left_command + spacebar`  
+This is for changing keyboard language with only right_command or right_option.
+- `right_command` to `left_command + spacebar`
+- `right_option` to `left_command + spacebar`
+
+If your Mac's default language-switching function is mapped to CapsLock,  
+you need to do some additional job.  
+Open System Preferences and go to Keyboard > Shortcut
+1. Map Spotlight to `alt + space`
+2. Map Input Source Selection to `command + space`  
+
+Basically switch those shortcuts.
 
 #### 2. Change `caps_lock` to `left_ctrl`
 For convenience, map caps_lock to left_ctrl. So you can initiate the following key mappings with `caps_lock`(use your little finger 🤙).
@@ -30,9 +38,9 @@ For convenience, map caps_lock to left_ctrl. So you can initiate the following k
 - `left_ctrl + left_option + j` to `left_option + ←`  
 - `left_ctrl + left_option + l` to `left_option + →`
 
-#### 5. Change `left_ctrl + n/o` to `home/end`
-- `left_ctrl + n` to `home`  
-- `left_ctrl + o` to `end`
+#### 5. Change `left_ctrl + left_command + j/l` to `home/end`
+- `left_ctrl + left_command + j` to `home`  
+- `left_ctrl + left_command + l` to `end`
 
 #### 6. Change `left_ctrl + h/;` to `backspace/delete`
 - `left_ctrl + h` to `backspace`
