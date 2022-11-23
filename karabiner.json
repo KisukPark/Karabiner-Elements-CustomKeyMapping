@@ -28,10 +28,7 @@
                 },
                 "to": [
                   {
-                    "key_code": "spacebar",
-                    "modifiers": [
-                      "left_command"
-                    ]
+                    "key_code": "caps_lock"
                   }
                 ],
                 "to_if_alone": [
